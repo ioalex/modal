@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal Project</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Modal Example</h1>
+    <p>
+      This is a project to create a modal with JavaScript and CSS. Please click
+      the button below to open the Modal.
+    </p>
+
+    <button id="modalBtn">Click Me!</button>
+
+    <div id="signUpModal" class="modal">
+      <div class="modal__content">
+        <button id="closeBtn">&times;</button>
+        <h1>Sign Up</h1>
+        <p id="signUpText">Enter your email below to join our waiting list!</p>
+        <input id="emailInput" type="text" />
+        <button id="submitBtn" type="submit">Sign Up</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

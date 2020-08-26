@@ -1,0 +1,43 @@
+body {
+  background-color: white;
+  text-align: center;
+  align-items: center;
+  font-family: "Alata", sans-serif;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.466);
+}
+
+.modal__content {
+  background-color: #f8cdf6;
+  margin: 15% auto;
+  padding: 20px;
+  /* border: 1px solid rgb(185, 185, 185); */
+  width: 40%;
+}
+
+#closeBtn {
+  color: rgb(218, 49, 49);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#closeBtn:hover,
+#closeBtn:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#submitBtn {
+}
